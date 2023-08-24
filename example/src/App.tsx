@@ -1,18 +1,13 @@
 import * as React from 'react';
 
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'waiuru-mobile-ui';
+import { StyleSheet, View } from 'react-native';
+
+import { Button } from 'waiuru-mobile-ui';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Button loading label="Teste Button" />
     </View>
   );
 }
@@ -22,6 +17,8 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: '#383838',
+    padding: 22,
   },
   box: {
     width: 60,
