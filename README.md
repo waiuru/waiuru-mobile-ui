@@ -1,20 +1,21 @@
-# waiuru-mobile-ui
+# @waiuru/waiuru-mobile-ui
 
-waiuru mobile ui 
+waiuru
 
 ## Installation
 
 ```sh
-npm install waiuru-mobile-ui
+npm install @waiuru/waiuru-mobile-ui
 ```
 
 ## Usage
 
 ```js
-import { Button } from 'waiuru-mobile-ui';
+import { multiply } from '@waiuru/waiuru-mobile-ui';
 
 // ...
 
+const result = await multiply(3, 7);
 ```
 
 ## Contributing
