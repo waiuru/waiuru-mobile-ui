@@ -11,11 +11,10 @@ npm install waiuru-mobile-ui
 ## Usage
 
 ```js
-import { multiply } from 'waiuru-mobile-ui';
+import { Button } from 'waiuru-mobile-ui';
 
 // ...
 
-const result = await multiply(3, 7);
 ```
 
 ## Contributing
