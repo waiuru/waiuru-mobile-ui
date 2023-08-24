@@ -1,6 +1,6 @@
 {
   "name": "@waiuru/waiuru-mobile-ui",
-  "version": "1.4.6",
+  "version": "1.4.7",
   "description": "waiuru",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
