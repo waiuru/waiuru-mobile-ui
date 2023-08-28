@@ -6590,6 +6590,11 @@ loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
+lottie-react-native@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/lottie-react-native/-/lottie-react-native-6.2.0.tgz#b63d358ca4b112f23997f5fe8118b6ac4662a7ed"
+  integrity sha512-r0I+BPV2oC50/c5Lr41MmLJigH7TVrh4qu/ssWRj1UPpELxVwJlofbaN4mH91ruVw4LqB2mICbXVqUBVgoP64g==
+
 lowercase-keys@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-3.0.0.tgz#c5e7d442e37ead247ae9db117a9d0a467c89d4f2"
@@ -7926,6 +7931,11 @@ react-native-builder-bob@^0.20.0:
     yargs "^17.5.1"
   optionalDependencies:
     jetifier "^2.0.0"
+
+react-native-linear-gradient@^2.8.2:
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/react-native-linear-gradient/-/react-native-linear-gradient-2.8.2.tgz#9811c91751be673ef928ef4aa3ff3a70b82935d6"
+  integrity sha512-hgmCsgzd58WNcDCyPtKrvxsaoETjb/jLGxis/dmU3Aqm2u4ICIduj4ECjbil7B7pm9OnuTkmpwXu08XV2mpg8g==
 
 react-native@0.72.4:
   version "0.72.4"
